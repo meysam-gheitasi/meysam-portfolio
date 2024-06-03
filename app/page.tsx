@@ -1,7 +1,10 @@
-import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="relative bg-black-100">Hello</main>
+    <main className="relative bg-black-100 flex flex-col justify-center items-center overflow-hidden mx-auto px-5 sm:px-10">
+      <div>
+        <h1>Hell Testing</h1>
+      </div>
+    </main>
   )
 };
